@@ -1,0 +1,445 @@
+/* Small devices (phone, 768px and up)*/
+@media (max-width: 767px) {
+    .logo-brand {
+        height: 20px;
+        padding-left: 15px;
+    }
+    
+    .navbar-brand-box {
+        margin: 20px 0 0 0;
+        height: 40px;
+    }
+
+    .navbar-header button {
+        color: #ffffff;
+        font-size: 22px;
+        padding: 18px 12px;
+        margin: 0;
+    }
+    .my-navbar {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .my-navbar li a {
+        font-size: 15px;
+        text-decoration: none;
+        padding: 15px 25px;
+        color: #ffffff;
+    }
+    
+    .carousel-inner {
+        min-height: 233px;
+        min-height: 273px;
+    }
+
+    .carousel-control {
+        width: 40px;
+    }
+
+    .carousel-control > img {
+        height: 70px;
+        width: 40px;
+    }
+    
+    .position-carousel-content-text {
+        min-height: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .position-carousel-content-text div {
+        width: 100%;
+    }
+
+    .position-carousel-content-img {
+        min-height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .position-carousel-content > img {
+        width: 150px;
+    }
+
+    .position-carousel-content > div > h2 {
+        font-size: 21px;
+    }
+
+    .position-carousel-content > div > p {
+        font-size: 12px;
+    }
+
+    .container-center {
+        padding-top: 20px;
+    }
+
+    .navigation-menu div ul li {
+        margin: 0 25px;
+    }
+    
+    .navigation-menu div ul li a {
+        font-size: 13px;
+    }
+
+    .navigation-menu2 {
+        border-radius: 0 0;
+    }
+
+    .navigation-menu2 div {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .navigation-menu2 div .glyphicon {
+        font-size: 8px;
+    }
+
+    .product div img {
+        width: 130px;
+    }
+
+    .product-block-text {
+        width: 130px;
+    }
+
+    .product-block-text h2 {
+        font-size: 20px;
+    }
+
+    .product-block-text p {
+        font-size: 12px;
+        height: 65px;
+
+    }
+
+    .product-button {
+        width: 130px;
+        height: 32px;
+        font-size: 13px;
+    }
+
+    .product-price {
+        width: 55px;
+        padding: 8.5px 5px 7.5px 0;
+        font-size: 11px;
+    }
+
+    .product-white-block {
+        width: 87px;
+        height: 36px;
+    }
+
+    .product-yellow-button {
+        width: 85px;
+        padding: 7px 0;
+        font-size: 12px;
+    }
+
+    .right-panel {
+        padding-left: 15px;
+    }
+
+    .advertising {
+        padding-bottom: 0;
+    }
+
+    .advertising-text {
+        text-align: center;
+        min-height: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .basket div h3 {
+        text-align: center;
+    }
+
+    .order-basket div img {
+        max-width: 207px;
+    }
+
+    .order-basket-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .order-basket-text {
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    
+    .order-basket-active .order-basket-text {
+        padding-top: 0;
+    }
+
+    .order-basket-active .col-md-5 p {
+        margin-bottom: 15px;
+    }
+
+    .order-basket-active .col-md-5 p:nth-child(2)  {
+        margin-bottom: 34px;
+    }
+
+    .input-field-phone {
+        margin-top: 0;
+    }
+
+    .data-field-block {
+        text-align: center;
+    }
+    
+    .input-field-button {
+        margin-top: 25px;
+        width: 150px;
+    }
+
+    .location-block {
+        font-size: 12px;
+        float: right;
+        text-align: right;
+    }
+
+    .social-network {
+        padding-left: 15px;
+    }
+
+    .social-network-logo a img {
+        width: 25px;
+    }
+}
+
+/* Small devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-brand {
+        height: 20px;  
+    }
+
+    .navbar-brand-box {
+        margin: 26px 0 0 0;
+    }
+
+    .contacts {
+        font-size: 14px;
+    }
+
+    .contact-number {
+        font-size: 18px;
+    }
+
+    .my-navbar {
+        margin: 23px 23px;
+    }
+
+    .my-navbar li a {
+        font-size: 13px;
+        padding: 5px 18px;
+    }
+
+    .position-carousel-content-text {
+        min-height: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .position-carousel-content-img {
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .position-carousel-content-text div {
+        width: 100%;
+    }
+
+    .carousel-inner {
+        min-height: 233px;
+    }
+
+    .navigation-menu div ul li {
+        margin: 0 25px;
+    }
+
+    .navigation-menu2 {
+        border-radius: 0 0;
+    }
+
+    .navigation-menu2 div {
+        text-align: center;
+    }
+
+    .right-panel {
+        padding-left: 15px;
+        padding-bottom: 35px;
+    }
+
+    .advertising {
+        padding-bottom: 0;
+    }
+
+    .advertising-text {
+        text-align: center;
+        min-height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .basket div h3 {
+        text-align: center;
+    }
+
+    .order-basket-text div h4 span {
+        font-size: 13px;
+    }
+
+    .order-basket-text {
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    
+    .counter-button {
+        width: 30px;
+        padding: 4px 0;
+    }
+    
+    .counter-quantity {
+        width: 75px;
+        padding: 4px 0px;
+    }
+
+    .order-basket-active div {
+    }
+    
+    .order-basket-active .order-basket-text {
+        padding-top: 0;
+    }
+
+    .order-basket-active .col-md-5 p {
+        margin-bottom: 16px;
+    }
+
+    .order-basket-active .col-md-5 p:nth-child(2)  {
+        margin-bottom: 36px;
+    }
+
+    .input-field-phone {
+        margin-top: 0;
+    }
+
+    .data-field-block {
+        text-align: center;
+    }
+    
+    .input-field-button {
+        margin-top: 25px;
+        width: 150px;
+    }
+
+    .location-block {
+        float: right;
+        text-align: right;
+    }
+}
+
+/* Medium devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo-brand {
+        height: 22px;  
+    }
+    
+    .navbar-brand-box {
+        margin: 26px 0 0 0;
+    }
+
+    .contact-number {
+        font-size: 18px;
+    }
+    
+    .my-navbar li a {
+        font-size: 14px;
+    }
+
+    .position-carousel-content > div {
+        width: 285px;
+    }
+
+    .position-carousel-content > div > h2 {
+        font-size: 24px;
+    }
+    
+    .product div img {
+        width: 170px;
+    }
+    
+    .product-block-text {
+        width: 190px;
+    }
+    
+    .product-button {
+        width: 170px;
+    }
+    
+    .product-price {
+        width: 69px;
+    }
+
+    .product-white-block{
+        width: 113px;
+        top: -2px;
+    }
+
+    .product-yellow-button {
+        width: 110px;
+    }
+    
+    .order-basket-text div h4 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .order-basket-text div h4 span {
+        font-size: 10px;
+    }
+
+    .counter-block {
+        margin-bottom: 5px;
+    }
+    .counter-button {
+        width: 22px;
+        padding: 0;
+    }
+
+    .counter-quantity {
+        width: 45px;
+        padding: 1px 0px;
+        font-size: 13px;
+    }
+
+    .order-basket-active .col-md-5 p {
+        margin-bottom: 11px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
